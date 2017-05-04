@@ -1,11 +1,15 @@
 {
-  "name": "node-client-success",
+  "name": "client-success",
   "version": "1.0.0",
   "description": "A javascript wrapper for client-success",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Harrison Beckerich",
+  "license": "ISC",
+  "repository": "https://github.com/hbeckeri/client-success.git",
+  "dependencies": {
+    "axios": "0.16.1"
+  }
 }
