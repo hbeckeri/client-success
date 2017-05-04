@@ -2,14 +2,29 @@
   "name": "client-success",
   "version": "1.0.0",
   "description": "A javascript wrapper for client-success",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "scripts/lint.sh"
   },
-  "author": "Harrison Beckerich",
-  "license": "ISC",
+  "author": {
+    "name": "Harrison Beckerich",
+    "email": "hbeckerich@torchlite.com"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
   "repository": "https://github.com/hbeckeri/client-success.git",
   "dependencies": {
-    "axios": "0.16.1"
+    "axios": "0.16.1",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "dotenv": "4.0.0",
+    "eslint": "3.19.0"
   }
 }
