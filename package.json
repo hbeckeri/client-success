@@ -1,7 +1,7 @@
 {
-  "name": "client-success",
+  "name": "node-client-success",
   "version": "1.0.0",
-  "description": "A javascript wrapper for client-success",
+  "description": "A nodejs wrapper for client-success",
   "main": "./lib",
   "scripts": {
     "lint": "scripts/lint.sh"
@@ -19,8 +19,7 @@
   ],
   "repository": "https://github.com/hbeckeri/client-success.git",
   "dependencies": {
-    "axios": "0.16.1",
-    "lodash": "4.17.4"
+    "axios": "0.16.1"
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
